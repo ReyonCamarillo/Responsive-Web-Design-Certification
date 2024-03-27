@@ -1,0 +1,250 @@
+# Landing Page
+HTML - CSS
+
+**HTML**
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Product Landing Page</title>
+</head>
+
+
+<body>
+  <style>
+body {
+  background-image: url(https://i.pinimg.com/474x/47/2f/50/472f50c45577deecb31711e0f950648a.jpg);
+}
+</style>
+  <div class="head-nav">
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img" class="header-img" src="https://thedentistsdorridge.co.uk/wp-content/uploads/2019/11/be_a_denist.jpg">
+      <ul>
+        <a class="nav-link" href="#before-n-after">Before & After</a>
+        <a class="nav-link" href="#veneers">Veneers</a>
+        <a class="nav-link" href="#testimonials">Testimonials</a>
+      </ul>
+     </nav>
+    </header>
+    <div class="top-bar">
+  <h1>Laguna Dentistry</h1>
+  </div>
+    </div>
+
+    <div class="adbait">
+      <section>
+      <h1>GET YOUR WHITE SMILE NOW!</h1>
+      <img class="smile-chair" src="https://fermeliadental.com/wp-content/uploads/2019/05/benefits-of-regular-dental-visits-1080x675.jpeg">
+
+  <div class="box-ad">
+    <h3>Special offer this month! <br> Contact for more information!</h3>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="youremail@mail.com">
+<input id="submit" type="submit" value="BOOK CONSULTATION" class="book-consultation"></input>
+      </form>
+  </div>
+
+      </section>
+    
+    <section id="before-n-after">
+      <h2> Before & After</h2>
+      <div class="before-n-afters">
+        <img src="https://www.drdanib.com/images/before-after-photos/cosmetic-dentist-los-angeles-11.jpg" width="200">
+        <img src="https://www.drdanib.com/images/before-after-photos/cosmetic-dentist-los-angeles-13.jpg" width="200">
+        <img src="https://www.smilingdental.com.au/wp-content/uploads/2018/10/smiling-dental-porcelain-veneers-before-after-16.jpg" width="200">
+        <img src="https://dentalinn.com/wp-content/uploads/2019/07/professional-teeth-whitening-before-after.png" width="200" height="200">
+      
+        </div>
+
+<section id="veneers">
+  <div class="veneers-go">
+    <h3>Learn about veneers!</h3>
+    <iframe id="video" src="https://www.youtube.com/watch?v=qNKYxgSYwBk"></iframe>
+    <p>Get yours now!</p>
+    <div class="box-ad"><p>Dental veneers are custom-made shells that fit over the front surfaces of your teeth. They conceal cracks, chips, stains and other cosmetic imperfections. Veneers are one of the most common cosmetic dentistry treatments. There are several types of veneers available, depending on your specific goals.</p>
+    </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="testi-1">
+      <h2>Testimonials</h2><hr>
+      <div class="user">
+        <img src="https://www.elitesingles.co.uk/wp-content/uploads/sites/59/2019/11/2b_en_articleslide_sm2-350x264.jpg">
+      </div>
+      <img src="https://t3.ftcdn.net/jpg/05/38/35/30/360_F_538353038_dlZfmhg4M2xTzN1v2ouBKx711LsAhfyT.jpg" width="200" class="testi-5-star">
+
+       <div class="user-text">
+          <p>"It's amazing how I can just smile again. I feel more confident in asking my wife out again."</p>
+<div><hr></div>
+<div class="user">
+        <img src="https://www.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg">
+      </div>
+      <img src="https://t3.ftcdn.net/jpg/05/38/35/30/360_F_538353038_dlZfmhg4M2xTzN1v2ouBKx711LsAhfyT.jpg" width="200" class="testi-5-star">
+
+       <div class="user-text">
+          <p>"My clients seem to engage more with me, I can't help but smile more!"</p>
+
+<div><hr></div>
+
+<div class="user">
+        <img src="https://www.shutterstock.com/image-photo/close-head-shot-portrait-preppy-260nw-1433809418.jpg">
+      </div>
+      <img src="https://t3.ftcdn.net/jpg/05/38/35/30/360_F_538353038_dlZfmhg4M2xTzN1v2ouBKx711LsAhfyT.jpg" width="200" class="testi-5-star">
+
+       <div class="user-text">
+          <p>"I cannot believe how affordable it is! I should have done this years ago!"</p>
+          
+      </section>
+  
+  <section class="lastinfo">
+    <div class="choose-us">
+      <h3>Prioritize your smile</h3>
+      <p>Choosing us is choosing the best smile available, from achieving the best aesthetics to boosting confidence, veneers have become a sought-after solution for anyone seeking to enhance their beauty and radiate confidence on their special day. </p>
+      </div>
+    </section>
+</body>
+</html>
+
+**CSS**
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+ * {
+ font-family: sans-serif;
+
+}
+ .top-bar {
+ background-color: #333;
+ overflow: hidden; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-left:240px;
+  padding: 0;
+}
+.header-img {
+  width:100px;
+  height: 77px;
+  position:fixed;
+  z-index: 1;
+}
+.top-bar {
+  color:#f1be32;
+  position:fixed;
+  float:left;
+  padding-left: 110px;
+  font-size: 13.5px;
+}
+.head-nav {
+  background-color: #333;
+  padding-bottom: 19px;
+  overflow: hidden;
+  position:fixed;
+  width: 100%;
+}
+.head-nav a {
+  float: left;
+  color: #f1be32;
+  margin-left: 100px;
+  padding: 14px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top:10px;
+}
+
+.head-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.head-nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.adbait {
+  color:#ADD8E6;
+  padding:100px;
+  text-align:center;
+  font-size:30px;
+
+}
+.smile-chair {
+  width:60vw;
+}
+.box-ad {
+  border:3px solid pink;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background:white;
+}
+
+
+
+.book-consultation {
+  background-color: #ADD8E6;
+  border:none;
+  color:white;
+  width:160px;
+  height:30px;
+  font-size:12px;
+  margin-bottom:10px;
+}
+
+.before-n.afters {
+  display:flex;
+}
+
+.testi-1 {
+  background:#a9c7ee;
+  color:white;
+}
+
+.user {
+width: 300px; 
+height: 300px;
+overflow: hidden; border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.testi-5-star {
+  margin-top:-36px;
+}
+
+.user-text {
+  font-size:20px;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+.lastinfo {
+  background-color:#ADD8E6;
+  color: white;
+  font-family: sans-serif;
+}
+.choose-us {
+  font-size:15px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+
+.choose-us:hover {
+  background-color:blue;
+}
+
+.choose-us-columns {
+  font-size:15px;
+  border:none;
+}
