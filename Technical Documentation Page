@@ -1,0 +1,524 @@
+# Technical Documentation Page
+
+HTML - CSS
+
+***HTML**
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+  <nav id="navbar">
+    <header class="menu">Menu</header>
+ <a class="nav-link" href="#Introduction">Introduction</a>
+ <a class="nav-link" href="#What_Is_UI?">What Is UI?</a>
+ <a class="nav-link" href="#What_Is_UX?">What Is UX?</a>
+<a class="nav-link" href="#What_Is_HTML?">What Is HTML?</a>
+<a class="nav-link" href="#What_Is_CSS?">What Is CSS?</a>
+    </nav>
+  <body style="background-color:#f6eee3">
+    <main id="main-doc">
+      <h1>Technical Documentation Page</h1>
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <img class="Intro-pic" src="https://cdn.sanity.io/images/599r6htc/localized/80890916035c843b5e8882682b7e2baef4bdd8b2-720x361.png?w=720&h=361&q=75&fit=max&auto=format">
+        <h3>Preface of UI, UX, HTML and CSS</h3>
+        <p>This article contains a beginner’s explanations of UI & UX terms during a study process, it is not made as a training manual but reading material and a quick walkthrough for the terminology.
+
+There is a quick read for Interfaces, Advantages & Disadvantages of CUI & GUI, Explanations and the importance of user research when creating projects.
+ </p>
+
+ <p>
+The next step is an even deeper dive into HTML and CSS terminology. A special thanks for <a href="https://www.freecodecamp.org/">freeCodeCamp</a> for their major contribution to the front-end development world for their <strong>FREE</strong> material.
+ </p>
+      </section>
+
+
+
+       <section class="main-section" id="What_Is_UI?">
+        <header>What Is UI?</header>
+        <img class="UI-pic" src="https://public-media.interaction-design.org/images/course/poster/topic-definition-what-is-ui-design.1692963246.jpg?tr=w-1127">
+        <h3>The benefits of understanding UI</h3>
+      </section>
+      <p>In short, UI is called <u>User Interface</u>. This is where the human to computer interaction happens. The communication to the computer is through: screen, keyboard, mouse and the appearance of the screen.
+ </p>
+
+ <p>It can also be described as the interaction between a user and an application or website. Many businesses have a growing dependence on web and phone applications. This means that the priority of UI has increased to improve UX. Which means User Experience, which we will get into later. </p>
+
+<h4>Types of UI</h4>
+<p> As types of <em>UI</em> vary, you may need to know the basics.</p>
+<table class="UI_Types">
+  <tr>
+    <th>GUI</th>
+    <th>CUI</th>
+    <th>CLI</th>
+    <th>MDUI</th>
+    <th>TUI</th>
+    <th>VUI</th>
+    <th>FBUI</th>
+    <th>NLUI</th>
+    </tr>
+    <tr>
+    <td>GUI - Graphical User Interface</td>
+    <td>CUI - Character User Interface (The coding process of GUI) </td>
+    <td>CLI - Command Line Interface </td>
+    <td>Menu-Driven User Interface </td>
+    <td>Touch User Interface </td>
+    <td>VUI - Voice User Interface </td>
+    <td>Form-Based User Interface </td>
+    <td>Natural Language User Interface </td>
+  </tr>
+</table>
+
+<h4>Common User Interfaces</h4>
+<p> A few examples of the actual UI that is used frequently without thought:</p>
+<div class="Common-user-interfaces">
+  <fieldset>
+<ul style="list-style-type:square;">
+  <li> A Computer Mouse</li>
+  <li>Remote Control (TV)</li>
+  <li>Virtual Reality</li>
+  <li>ATM</li>
+  <li>Speedometer</li>
+  <li>The old Ipod click wheel</li>
+</ul>
+</fieldset>
+</div>
+
+<p>To mention websites that are heavily dependent on UI & UX, examples could be Airbnb, Dropbox, Facebook, Instagram, Reddit etc.  These sites have created well refined and user friendly designs. Another term for this is User-Centered Designs (UCD) which focuses on UX and the user’s needs.
+ </p>
+
+ <h3>CUI V.S. GUI </h3>
+ <img class="cui_vs_gui" src="https://www.steadyrun.com/img/diff/difference-between-cui-gui.jpg">
+     <h4> What is CUI?</h4>
+     <p>CUI means <u>Character User Interface</u>. This is where the <em>“Coding & Commands”</em> comes into use. CUI is the user interface where the user engages with the computer solely through the keyboard and needs a command to perform any tasks. CUI was mostly utilized in the early computers. Now most computers use GUI rather than CUI. CUI works by permitting the user to provide commands to a program in multiple text lines which are Command Lines. CUI instances are MS-DOS and Windows Command Prompt. This can simplify the creation of programming scripts. </p> 
+
+     <table>
+       <tr>
+       <th>Advantages</th>
+       </tr>
+       <td>
+         <ul>
+           <li>CUI uses less memory in comparison to GUI</li>
+           <li>
+It is less expensive to use because of a lower resolution screen
+</li>
+      <tr>
+        <th>Disadvantages</th>
+       </tr>
+       <td>
+         <ul>
+          <li> No “graphics” and is less appealing.</li>
+          <li>CUI does not provide the same simplicity of use or capacity to operate with various programs on one screen.</li>
+
+<li>There is no obvious feedback in CUI. Multiple of additional commands would be required to confirm example: file transfer action.</li>
+<li>A user must memorize various commands to operate and manage a CUI.
+One task at a time.
+Can only support Keyboards.</li>
+  </td>
+  </table>
+
+      <h4> What is GUI?</h4>
+      <p>A GUI <u>(Graphical User Interface)</u> allows users to engage with the operating system or application. GUI can perform fast calculations of arithmetic and frees up the CPU to be able to perform other tasks. GUI offers buttons, windows, scrollbars, iconic images and other icons to facilitate users. GUI has a very user-friendly interface compared to CUI. 
+</p>
+
+     <table>
+       <tr>
+       <th>Advantages</th>
+       </tr>
+       <td>
+         <ul>
+           <li>So easy to use. Can classify and navigate options since data are represented as symbols, forms and even icons. One click on the image and the function will start.
+</li>
+           <li>
+Easy to manage multiple jobs, Users are able to view multiple programs at the same time. Example: Play music while browsing the internet or watch a movie and write an essay at the same time.
+</li>
+<li>HOTKEYS or SHORTCUT KEYS, incredible features of GUI. Hotkeys are good for processing multiple of actions for a single job.</li>
+      <tr>
+        <th>Disadvantages</th>
+       </tr>
+       <td>
+         <ul>
+          <li> While GUI are easy to use, they are very difficult to create. GUIs have a lot of coding that takes a lot of time and effort to establish. To “simply” put it, the programmer must create, link and then assign specific tasks to the image/icon.</li>
+          <li>Using a single wrong syntax when creating GUI, can make all efforts go in vain</li>
+
+<li>Uses high power and computer memory due to graphical representations.</li>
+<li>The Design of the GUI makes development more complex and expensive. Risk can be that additional hardware is needed which would increase over all costs.</li>
+  </td>
+  </table>
+      
+       <section class="main-section" id="What_Is_UX?">
+        <header>What Is UX?</header>
+        <img class="UX-pic" src="https://www.justinmind.com/blog/wp-content/uploads/2017/11/what-is-ux-strategy-user-experience.png">
+      <h3>The benefits of understanding UX</h3>
+      <p> When working with UI, you are basically also working with UX also known as <u>User Experience</u>. UX can include the aesthetic appearance of a product or device, the response time and the visual content that is presented to the user within the context of the user interface.
+
+UI and UX both fall under the concept of <u>Human-Computer-Interaction (HCI)</u>, which is the field of study that focuses on the creation of these computer technology interactions between humans and all forms of IT.
+HCI studies include: 
+</p>
+     <div class="HCI">
+  <fieldset>
+<ul style="list-style-type:square;">
+  <li> UCD (User-Centered Design)</li>
+  <li>UI Design</li>
+  <li>UX Design</li>
+</ul>
+</fieldset>
+</div> 
+      <p>Because of the high demand for an advanced and user-friendly experience, Careers such as UI and UX experts have been created. This means that computer languages such as HTML and CSS have been geared toward making it easier to create optimal UI and UX.
+ </p>
+
+ <h4>UX User Research</h4>
+ <p>Improving UX, usually requires <em>“User Research”</em>. Meaning what does the user do and look for. To check up on this, the typical ways are surveys, interviews, testing phrases with prototypes of designs.
+
+Conducting user research, you need to engage and observe your target users, their needs, behaviors and if working with products, you need to find out their comfort in relation to both products and your service you design.
+
+User research is basically <em>making assumptions</em> and <em>creating</em> something that solves a real user problem.
+</p>
+
+<p>There is <strong>Quantitative</strong> and <strong>Qualitative</strong> UX research:</p>
+
+<table class="UI_Types">
+  <tr>
+    <th>Quantitative</th>
+    </tr>
+    <tr>
+      <td><ul>
+<li>Page visits</li>
+<li>Where they come from</li>
+<li>Bounce-rates</li>
+<li>Conversion rates</li>
+<li>Subscription</li>
+<li>Mouse clicks</li>
+<li>Amount of Success and Error</li>
+        </ul>
+         </td>
+    </tr>
+    <tr>
+      <th>Qualitative</th>
+      </tr>
+      <tr>
+<td><ul>
+<li>User Surveys</li>
+<li>Interviews</li>
+<li>Observations</li>
+<li>Analysis</li>
+<li>Focus Groups</li>
+        </ul>
+        </tr>
+    
+  </tr>
+</table>
+
+      
+      
+      
+      </section>
+
+
+       <section class="main-section" id="What_Is_HTML?">
+        <header>What Is HTML?</header>
+        <img class="html-pic" src="https://www.investopedia.com/thmb/33J47lYaGMBV4nx8vdJNtHBv3cY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/html.asp-final-86da30eff12f46f3a1394efb0b137103.png">
+        <h3>HyperText Markup Language</h3>
+        <p>HTML( <u>(HyperText Markup Language)</u> is a markup language that uses a special syntax to describe the structure of a webpage to the browser. HTML elements usually have <em>opening</em> and <em>closing</em> tags that surround and give meaning to content. For example, different elements can describe a text as a head, paragraph or list them.
+</p>
+
+<p><em>"An HTML Element is defined by a start tag, content and an end tag."
+</em></p>
+
+<p>What defines html?</p>
+<div class="HTML-def">
+  <fieldset>
+<ul style="list-style-type:square;">
+  <li> HTML stands for Hyper Text Markup Language</li>
+  <li>HTML is the standard markup language for creating Web pages</li>
+  <li>HTML describes the structure of a Web page</li>
+  <li>HTML consists of a series of elements </li>
+  <li>HTML elements tell the browser how to display the content </li>
+  <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc. </li>
+</ul>
+</fieldset>
+</div> 
+
+<p>One thing is to explain how it works, the other thing is to show it. <br></br> Here's a few examples</p>
+<table>
+<tr>
+  <th>HTML</th>
+  </tr>
+  </tr>
+  <td>
+    <ul>
+        <li><code> <strong>< h1 ></strong>First Heading <strong>< /h1 ></strong></code></li>
+        <li><code> <strong>< p ></strong>First Paragraph <strong>< / p ></strong></code></li>
+        <li><code><strong>< a href=</strong>”Insert link about website.com”>My First link!<strong>< /a ></strong></code>
+      
+
+</ul>
+    </td>
+  </tr>
+  </table>
+      </section>
+
+
+
+       <section class="main-section" id="What_Is_CSS?">
+        <header>What Is CSS?</header>
+        <img class="css-pic" src="https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-css/sta-je-css.png">
+    <h3>Cascading Style Sheets</h3>
+    <p><u>Cascading Style Sheets (CSS)</u> is used to format the layout of a webpage.
+
+With CSS, you can control the color, font, the size of text the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes etc.
+</p>
+
+<div class="css-usage">
+  <fieldset>
+<ul style="list-style-type:square;">
+  <li> Inline - by using the style attribute inside HTML elements.</li>
+  <li>Internal - by using a <em>style</em> element in the <em>head</em> section.</li>
+  <li>External - by using a <em>link</em> element to link to an external CSS file.</li>
+</ul>
+</fieldset>
+</div> 
+<p>Most common way to add CSS, is to keep the styles in external CSS files. <br></br> Let's have a look at a few examples used on this page:</p>
+      <table>
+<tr>
+  <th>CSS Styling</th>
+  </tr>
+  </tr>
+  <td>
+    <ul>
+        <li><code><strong>#navbar</strong> { <br>
+    text-decoration:none; <br>
+    width:12vw; <br>
+    min-width:250px; <br>
+    height:100%; <br>
+    text-align:center; <br>
+    border-right: 1px solid #000; <br>
+    position:fixed; <br>
+    left: 0px; <br>
+    margin-top:-8px; <br>
+  }
+</li>
+        <li><code> <strong>table</strong> { </br>
+  font-family:sans-serif; </br>
+  padding-left: 250px; </br>
+  width:80vw;</br>
+  line-height: 25px; </br></code></li>
+</ul>
+    </td>
+  </tr>
+  </table>
+      <p>This is the beauty of CSS, as confusing as HTML can be, CSS can be the visible "savior" towards this issue. Every single webpage you visit, uses CSS structure to make the website more visibly inviting.
+        </p>
+      </section>
+ <section>
+   <h4>Do you have any questions?</h4>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+        
+      </fieldset>   
+      <fieldset>
+        
+         <label for="bio">If you would like to know more
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Here's my question!"></textarea>
+        </label>
+
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> for submitting.
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+   </section>     
+      </main>
+</body>
+</html>
+
+***CSS**
+
+@media (max-width: 1199px) and (min-width: 769px) {}
+
+h1 {
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-size: 40px;
+    padding-left:250px;
+    padding-bottom:8px;
+    padding-top:5.5px;
+    position:relative;
+}
+
+html, body, {
+  font-family:sans-serif;
+  font-size:16px;
+}
+
+header {
+  font-size: 32px;
+  padding-left: 250px;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+.intro-pic {
+  width: 50vw;
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ux-pic {
+  width: 50vw;
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.UI-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+.html-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+.css-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+table {
+  font-family:sans-serif;
+  padding-left: 250px;
+  width:80vw;
+  line-height: 25px;
+
+}
+.cui_vs_gui {
+  padding-left: 250px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+.css-usage {
+   padding-left: 250px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+  td, th {
+  border: 1px solid black;
+  }
+th {
+  background-color: #d9dddc
+}
+
+
+#navbar {
+    text-decoration:none;
+    width:12vw;
+    min-width:250px;
+    height:100%;
+    text-align:center;
+    border-right: 1px solid #000;
+    position:fixed;
+    left: 0px;
+    margin-top:-8px;
+  }
+  .nav-link {
+    display:block;
+    color:black;
+    text-align:left;
+    text-decoration:none;
+    font-size: 20px;
+    border-top: 2px solid black;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
+.menu {
+ display:block;
+    color:black;
+    text-align:left;
+    text-decoration:none;
+    font-size: 40px;
+    border-top: 2px solid black;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+  h3, p, h4 {
+    font-family:sans-serif;
+    padding-left: 250px;
+    line-height: 25px;
+  }
+
+  h3 {
+    padding-top:10px;
+    text-align:center;
+  }
+
+
+.Common-user-interfaces {
+  text-align:center;
+  font-family:sans-serif;
+  padding-left:270px;
+}
+.HCI {
+  text-align:center;
+  font-family:sans-serif;
+  padding-left:270px;
+}
+
+.html-def {
+  font-family:sans-serif;
+  padding-left:270px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  padding-left: 250px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+}
+
