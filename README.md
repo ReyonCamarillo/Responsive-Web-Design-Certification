@@ -1,6 +1,6 @@
 
 This contains assignments from freecodecamp.
 
-On the main branch, are the personal "certification" projects and the other folder is the assginments provided by freeCodeCamp.
+Main branch contains the personal "certification" projects and the other folder are the assignments provided by freeCodeCamp which has been completed.
 
-The assignments and projects are written in as "templates".
+The assignments and projects are written in as "templates" with full HTML and CSS code.
