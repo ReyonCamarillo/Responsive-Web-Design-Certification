@@ -1,0 +1,117 @@
+h1 {
+    color: #0a0a23;
+    font-size: min(5vw, 1.9em);
+    font-weight: 800;
+    text-align: center;
+  
+  }
+  .img-div {
+    text-align: center;
+    display:block;
+    height: auto;
+  }
+  
+  img {
+    display:block;
+  }
+  
+  body {
+    background-image: url(https://bakerstable.net/wp-content/uploads/2022/01/chocolate-chip-muffins-35-e1642106406303.jpg);
+    background-size: cover;
+    font-family: Verdana;
+    padding: 20px;
+  }
+  
+  .image {
+    max-width: 100%;
+  }
+  
+  h3 {
+    font-family: Tahoma;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .img-caption > p {
+    font-weight: 800;
+  }
+  
+  span {
+    color: #f1be32;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  p:hover {
+    cursor: pointer;
+    background-color: white;
+  }
+  .last-p {
+    border: 2px solid orange;
+    text-align:center;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+  }
+  
+  .song {
+    border: 5px solid;
+    border-color: pink;
+    background-color: white;
+    color: brown;
+    width: 300px;
+    height: 210px;
+    margin: 0 auto;
+  }
+  
+  .big-smile {
+    width:50px;
+    padding-left: 230;
+  }
+  
+  .nice-muffin {
+    width:60%;
+    margin: 0 auto
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+    color: red;
+  }
+  
+  .muffin-form {
+    display:inline-block;
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    }
+  
+  
+  
+   ul > li:hover {
+    background-color: #f1be32;
+    color: #1b1b32;
+    cursor: pointer;
+   }
+  
+   ul {
+    list-style-type: none;
+   }
+  
+  button {
+    display: block;
+    margin: 5px auto;
+    width: 40%;
+    padding: 5px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+  }
+  
+  .thumpsup {
+    width: 70px;
+    padding: 0 140;
+  }
