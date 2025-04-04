@@ -1,0 +1,182 @@
+@media (max-width: 1199px) and (min-width: 769px) {}
+
+h1 {
+    display:block;
+    color:black;
+    text-decoration:none;
+    font-size: 40px;
+    padding-left:250px;
+    padding-bottom:8px;
+    padding-top:5.5px;
+    position:relative;
+}
+
+html, body {
+  font-family:sans-serif;
+  font-size:16px;
+}
+
+header {
+  font-size: 32px;
+  padding-left: 250px;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+.Intro-pic {
+  width: 50vw;
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.UX-pic {
+  width: 50vw;
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.UI-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  
+}
+.html-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+
+.css-pic {
+  padding-left: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+table {
+  font-family:sans-serif;
+  padding-left: 250px;
+  width:80vw;
+  line-height: 25px;
+
+}
+.cui_vs_gui {
+  padding-left: 250px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+.css-usage {
+   padding-left: 250px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+}
+
+  td, th {
+  border: 1px solid black;
+  }
+th {
+  background-color: #d9dddc
+}
+
+
+#navbar {
+    text-decoration:none;
+    width:12vw;
+    min-width:250px;
+    height:100%;
+    text-align:center;
+    border-right: 1px solid #000;
+    position:fixed;
+    left: 0px;
+    margin-top:-8px;
+  }
+  .nav-link {
+    display:block;
+    color:black;
+    text-align:left;
+    text-decoration:none;
+    font-size: 20px;
+    border-top: 2px solid black;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    padding-top:5px;
+  }
+
+.menu {
+ display:block;
+    color:black;
+    text-align:left;
+    text-decoration:none;
+    font-size: 40px;
+    border-top: 2px solid black;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+
+  h3, p, h4 {
+    font-family:sans-serif;
+    padding-left: 250px;
+    line-height: 25px;
+  }
+
+  h3 {
+    padding-top:10px;
+    text-align:center;
+  }
+
+
+.Common-user-interfaces {
+  text-align:center;
+  font-family:sans-serif;
+  padding-left:270px;
+}
+.HCI {
+  text-align:center;
+  font-family:sans-serif;
+  padding-left:270px;
+}
+
+.html-def {
+  font-family:sans-serif;
+  padding-left:270px;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  padding-left: 250px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+}
